@@ -381,6 +381,8 @@ func main() {
 						})
 						SaveUserSessions()
 					}
+				} else {
+					sender.Answer(e, update).ReplyMsg(m).Text(ctx, "Max queue limit reached. Please wait few seconds until few slot get empty and try again later")
 				}
 			}
 

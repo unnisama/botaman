@@ -172,7 +172,6 @@ func NewUser(PSID, PSIDTS, CID, RID, ChID, NID, SIDCC, PSIDCC1, PSIDCC3 string) 
 func (b *Bard) Ask(prompt string) error {
 
 	b.createRestClient()
-	fmt.Println("New User BSH: ", b.isNewUser)
 
 	// Prepare request
 	snim0e, err := b.getSnim0eValue()

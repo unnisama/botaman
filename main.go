@@ -18,7 +18,6 @@ import (
 	"github.com/gotd/td/session"
 	"github.com/gotd/td/telegram"
 	"github.com/gotd/td/telegram/message"
-	"github.com/gotd/td/telegram/message/styling"
 	"github.com/gotd/td/tg"
 )
 
@@ -362,7 +361,7 @@ func main() {
 						// fmt.Println("CID: ", answer.GetConversationID(), "\n", "RID: ", answer.GetResponseID(), "\n", "ChID: ", answer.GetChoiceID())
 
 						for _, sval := range SplitN(rmessage, MaxMessageSize) {
-							sender.Answer(e, update).ReplyMsg(m).StyledText(ctx, styling.Bold(sval))
+							sender.Answer(e, update).ReplyMsg(m).Text(ctx, sval)
 						}
 
 						api.ChannelsDeleteMessages(ctx, &tg.ChannelsDeleteMessagesRequest{

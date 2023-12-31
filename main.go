@@ -38,17 +38,17 @@ type Session struct {
 type UserSessions map[int64]Session
 type UserBards map[int64]*bard.Bard
 
-var PSID = "dwjInIw9lZzDdUXhA9bPv25gXWoJPXXJjG-72hkBoOrSP_34E6L_rE2d2NHCEmp8wqTyYg."
+var PSID = ""
 
 // cookies can expire or regenerate so don't visit bard.google.com/<somechat>
 
-var PSIDTS = "sidts-CjIBPVxjSlYghaJO421ZJtwScONZL14GLnYp84htu79vdDxotnuvj6XFWiTOgYmV_pCFrhAA"
+var PSIDTS = ""
 
 var appID = 94575
 var appHash = "a3406de8d171bb422bb6ddf3bbd800e2"
 
 // Get it from bot father.
-var token = "6860877846:AAGkbKo-cH8GkqLofr2tnByDrI2tkv66UxI"
+var token = ""
 
 var MaxMessageSize = 3500
 

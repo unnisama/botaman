@@ -42,7 +42,7 @@ var PSID = "dwjInIw9lZzDdUXhA9bPv25gXWoJPXXJjG-72hkBoOrSP_34E6L_rE2d2NHCEmp8wqTy
 
 // cookies can expire or regenerate so don't visit bard.google.com/<somechat>
 
-var PSIDTS = "sidts-CjIBPVxjSlYghaJO421ZJtwScONZL14GLnYp84htu79vdDxotnuvj6XFWiTOgYmV_pCFrhAA"
+var PSIDTS = "sidts-CjIBPVxjSiQ2CJgbCTvWb1z9NGp3FA23dKMdcub8zf1Cwyvaxkr7ndp2ZtSoc-UiyF5sexAA"
 
 var appID = 94575
 var appHash = "a3406de8d171bb422bb6ddf3bbd800e2"
